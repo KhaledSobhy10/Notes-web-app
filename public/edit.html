@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notes app</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">Notes App</h1>
+        <h2 class="header__subtitle">Take notes and never forget</h2>
+      </div>
+    </header>
+
+    <div class="actions">
+      <div class="actions__container actions__container--spaced">
+        <a href="index.html">Home</a>
+        <span id="last-updated"></span>
+      </div>
+    </div>
+
+    <div class="container">
+      <input id="edit-title-input" type="text" name="" class="title-input" />
+      <textarea id="edit-body-textarea" class="body-input"></textarea>
+      <button id="remove-note-button" class="button button--secondary">
+        Remove
+      </button>
+    </div>
+
+    <script src="./scripts/edit.bundle.js"></script>
+  </body>
+</html>
